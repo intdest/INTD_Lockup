@@ -11,9 +11,9 @@ Thanks to lock-up periods, the INTD project will earn more money because of both
 However, the main reason for instituting a lock-up period is that it protects the market from being bombarded with excessive tokens, which in turn lowers the value of the INTD due to increased sales.<br>
 
 ## Review link
-[Lock process information](https://cointool.app/token/lock?a=0x8Bb93979901cd159bF6763B223FBb315C31CCF7b&c=137)
-[Review on the POLYGON network](https://polygonscan.com/token/0x8Bb93979901cd159bF6763B223FBb315C31CCF7b?a=0x4a3c80d5418Eb3d9292c2186Ec7EC0567e9F9da3)
-[Transaction Details](https://polygonscan.com/tx/0x1f547cd74253b41744794a2b93ce89a261749ce90dbc1694b0206eb055d57edd)
+[Lock process information](https://cointool.app/token/lock?a=0x8Bb93979901cd159bF6763B223FBb315C31CCF7b&c=137)<br>
+[Review on the POLYGON network](https://polygonscan.com/token/0x8Bb93979901cd159bF6763B223FBb315C31CCF7b?a=0x4a3c80d5418Eb3d9292c2186Ec7EC0567e9F9da3)<br>
+[Transaction Details](https://polygonscan.com/tx/0x1f547cd74253b41744794a2b93ce89a261749ce90dbc1694b0206eb055d57edd)<br>
 
 ## Lockup Contract Source code
 pragma solidity >=0.6.0 <0.8.0;
