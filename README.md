@@ -231,7 +231,8 @@ contract TokenLocker is Ownable, ReentrancyGuard,EternalStorage {
     gFees.ethFee = _ethFee;
     gFees.liquidityFee = _liquidityFee;
   }
-  function lockLPToken (address _lpToken, uint256 _amount, uint256 _unlock_date, address payable _withdrawer) external payable nonReentrant {
+  function lockLPToken (address _lpToken, uint256 _amount, uint256 _unlock_date, address payable _withdrawer)
+   external payable nonReentrant {
     require(_unlock_date < 10000000000, 'TIMESTAMP INVALID');
     require(_amount > 0, 'INSUFFICIENT');
     TransferHelper.safeTransferFrom(_lpToken, address(msg.sender), address(this), _amount);
